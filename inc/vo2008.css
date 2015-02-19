@@ -1,0 +1,247 @@
+BODY, HTML {
+  margin: 0;
+  padding: 0;
+  background: #8EAF4B url("../images/leaves.jpg") no-repeat 0px 235px;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+A:link, A:visited  {
+  color: #FFFFFF;
+}
+A:hover, A:active  {
+  color: #FAB984;
+  text-decoration: none;
+}
+
+IMG {
+  border: 0;
+}
+
+FORM {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#header {
+  height: 235px;
+  background: url("../images/grass.jpg") repeat-x;
+  border-bottom: 1px solid #FAB984;
+}
+
+#menu {
+  position: absolute;
+  top: 179px;
+  left: 52px;
+  width: 900px;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  float: left;
+  padding-right: 10px;
+}
+#menu A {
+  display: block;
+  padding: 4px 8px 4px 0px;
+  width: 102px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 9pt;
+  text-align: right;
+}
+#menu A:hover {
+  color: #000000;
+  background: #FAB984;
+}
+A.menu1 {
+  background: #0D9ECF;
+}
+A.menu2 {
+  background: #15A69E;
+}
+A.menu3 {
+  background: #05AF91;
+}
+A.menu4 {
+  background: #82A738;
+}
+A.menu5 {
+  background: #C06E2C;
+}
+A.menu6 {
+  background: #B8494F;
+}
+A.menu7 {
+  background: #B5369D;
+}
+
+#headerband {
+  position: absolute;
+  top: 212px;
+  height: 23px;
+  width: 100%;
+  background-color: #0B9DCF;
+  filter: alpha(opacity=50); /* for IE */
+  opacity: 0.5; /* CSS3 standard */
+}
+
+#headline {
+  position: absolute;
+  top: 277px;
+  left: 87px;
+	width: 1000px;
+}
+
+#facebook {
+	float: right;
+	margin-right: 17px;
+}
+
+#transband {
+  position: absolute;
+  top: 344px;
+  height: 212px;
+  width: 100%;
+  background: #92C35D url("../images/gradient.jpg") repeat-y;
+  filter: alpha(opacity=50); /* for IE */
+  opacity: 0.5; /* CSS3 standard */
+}
+
+#content {
+  position: absolute;
+  top: 317px;
+  left: 87px;
+  width: 1000px;
+}
+
+#two-col {
+  width: 800px;
+  padding: 40px 0px 0px 0px;
+}
+
+#left-col {
+  float: left;
+  width: 279px;
+}
+
+#left-col-upper {
+  padding-right: 12px;
+  height: 62px;
+  text-align: right;
+}
+
+#left-col-upper-head {
+  padding-bottom: 8px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#left-col-lower-bg {
+  width: 270px;
+  height: 110px;
+  margin-left: 10px;
+  background: url("../images/left_col_lower_bg.jpg");
+  filter: alpha(opacity=50); /* for IE */
+  opacity: 0.5; /* CSS3 standard */
+}
+
+#left-col-lower {
+  position: relative;
+  top: -98px;
+  left: 100px;
+  width: 170px;
+}
+
+#left-col-lower ul {
+	list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#left-col-lower li {
+  text-align: right;
+  background: url("../images/bullet.jpg") no-repeat right 2px;
+  padding: 0px 20px 10px 0px;
+}
+
+#right-col {
+  background: url("../images/corner.gif") no-repeat 0px 3px;
+  margin-left: 289px;
+  padding: 0px 0px 0px 20px;
+  width: 466px;
+  font-size: 15px;
+}
+* html #right-col {
+  width: 490px;
+  w\idth: 466px;
+}
+
+#about-danny, #sign-up {
+  background: url("../images/about_danny.jpg") no-repeat;
+  padding: 110px 20px 0px 8px;
+  margin: 20px 10px 0px 0px;
+  float: left;
+  width: 188px;
+  height: 120px;
+  font-size: 12px;
+}
+* html #about-danny, * html #sign-up { /* IE5 is a spaz */
+  height: 230px;
+  h\eight: 120px;
+}
+#about-danny {
+  background: url("../images/about_danny.jpg") no-repeat;
+}
+#sign-up {
+  background: url("../images/sign_up.jpg") no-repeat;
+}
+
+#boxtext1, #boxtext2 {
+  height: 70px;
+  padding-top: 8px;
+}
+
+#about-danny A, #sign-up A {
+  color: #B1E578;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  width: 195px;
+}
+#about-danny A:hover, #sign-up A:hover {
+  color: #FAB984;
+}
+
+#bottom {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 10px;
+  color: #5B7927;
+}
+#bottom A {
+  text-decoration: none;
+  color: #5B7927;
+}
+#bottom A:hover {
+  color: #FAB984;
+}
+
+#minheight {
+  float: right;
+  height: 530px;
+  width: 1px;
+}
+
+#bigPic {
+  visibility: hidden;
+  padding: 10px 0px 0px 0px;
+}
+#thumb {
+  height: 65px;
+  padding: 0px 2px 2px 0px;
+}
