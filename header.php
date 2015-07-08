@@ -3,7 +3,7 @@
 <head>
   <META http-equiv="Content-Type" content="text/html;charset=utf-8" >
   <META name="language" content="en">
-  <META name="author" content="Remedi Creative">
+  <META name="author" content="Foresite Group">
   <META name="description" content="A golf event benefiting the Pancreatic Cancer Action Network in memory of Daniel J. Kleiman.">
   <META name="keywords" content="Vernon Open, golf, benefit, cancer, pancreatic cancer, Pancreatic Cancer Action Network, PANCAN, Daniel Kleiman, Grafton, WI, Wisconsin">
   <title>Vernon Open<? if ($PageTitle != "") { print " - " . $PageTitle; } ?></title>
@@ -37,16 +37,16 @@
 
 <div id="header"> <!-- BEGIN header -->
   <a href="index.php"><img src="images/vo_logo.jpg" alt="Vernon Open" style="position: absolute; top: 21px; left: 52px;"></a>
-  <img src="images/title.png" alt="12th Annual Vernon Open" class="png" style="position: absolute; top: 60px; left: 240px;">
+  <img src="images/title.png" alt="13th Annual Vernon Open" class="png" style="position: absolute; top: 60px; left: 240px;">
   <img src="images/top_photos.jpg" alt="Photos" style="position: absolute; top: 0px; left: 693px;">
   
   <div id="menu"> <!-- BEGIN menu -->
     <ul>
       <li><a href="index.php" class="menu1">Home</a></li>
       <li><a href="aboutdaniel.php" class="menu2" style="width: 129px;">About Daniel Kleiman</a></li>
-      <li><a href="vo2014.php" class="menu3" style="width: 107px;">Vernon Open 2014</a></li>
+      <li><a href="vo2015.php" class="menu3" style="width: 107px;">Vernon Open 2015</a></li>
       <li><a href="photos.php" class="menu4">Photo Gallery</a></li>
-      <li><a href="supporters.php" class="menu5">VO Supporters</a></li>
+      <!-- <li><a href="supporters.php" class="menu5">VO Supporters</a></li> -->
       <li><a href="signup.php" class="menu6">Contact &amp; Signup</a></li>
       <li><a href="daniel-kleiman-fund.php" class="menu7" style="width: 125px;">Daniel Kleiman Fund</a></li>
     </ul>
@@ -57,7 +57,7 @@
 
 <div id="headline">
   <a href="http://www.facebook.com/profile.php?id=100000120394056" id="facebook"><img src="images/facebook.jpg" alt="Facebook"></a>
-  <img src="images/headline.jpg" alt="Join us for the 12th Annual Vernon Open">
+  <img src="images/headline.jpg" alt="Join us for the 13th Annual Vernon Open">
 </div>
 
 <div id="transband"></div> <!-- Opaque gradient band -->
@@ -74,7 +74,7 @@
     
       <div id="left-col-upper"> <!-- BEGIN upper left column -->
         <div id="left-col-upper-head">WHEN &amp; WHERE</div>
-        Saturday September 6th, 2014<br>
+        Saturday September 12th, 2015<br>
         Fire Ridge Golf Course in Grafton, WI
       </div> <!-- END upper left column -->
       

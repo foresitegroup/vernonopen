@@ -6,9 +6,9 @@
   <div id="bottom"> <!-- BEGIN bottom menu and copyright -->
     <a href="index.php">Home</a> | 
     <a href="aboutdaniel.php">About Daniel Kleiman</a> | 
-    <a href="vo2014.php">Vernon Open 2014</a> | 
+    <a href="vo2015.php">Vernon Open 2015</a> | 
     <a href="photos.php">Photo Gallery</a> | 
-    <a href="supporters.php">VO Supporters</a> | 
+    <!-- <a href="supporters.php">VO Supporters</a> |  -->
     <a href="signup.php">Contact &amp; Signup</a> | 
     <a href="daniel-kleiman-fund.php">Daniel Kleiman Fund</a>
     <br><br>

@@ -3,10 +3,8 @@ $lowerleft = "yes";
 include("header.php");
 ?>
     <div id="right-col"> <!-- BEGIN right column -->
-      <strong>Thank You</strong><br>
-      Thank you to all for participating in last year's Vernon Open. With your support and generosity we have raised more than $100,000 donated to pancreatic cancer research over the years! We can not thank you all enough. This is such a tribute to Dan and we are honored.<br>
-      <br>
-      The Kleiman Family
+      <strong>Save the Date</strong><br>
+      Save the date for the 13th Annual Vernon Open.  Saturday September 12th.  Same time same place!!  1pm Shotgun start at Fire Ridge Golf Club in Grafton.  All money raised is donated to Aurora St Lukes.  We look forward to another great year!! See you there!
 
       <!--
       VERNON OPEN 9 is just around the corner.  Mark your calendars for September 10, 2011.  We'll have a great time.  <a href="javascript:toggle('par1','par1link')" id="par1link">Read more...</a>
