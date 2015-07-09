@@ -89,8 +89,27 @@
         </ul>
       </div> <!-- END lower left column -->
       
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup" style="text-align: right;">
+        <h3 style="margin: 0;">Please send me periodic information about the Vernon Open</h3>
+        <form action="//vernonopen.us11.list-manage.com/subscribe/post?u=da19776168d4a6813b2db1253&amp;id=f432b4379d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+              <label for="mce-EMAIL" style="display: none;">Email Address </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address" style="width: 87%; margin: 0.3em 0; padding: 0.1em 0.2em; text-align: right;">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_da19776168d4a6813b2db1253_f432b4379d" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+        </form>
+      </div>
+      <!-- End MailChimp Signup Form -->
       <?php } ?>
-      
+
       <!--
       <div style="text-align: right; position: relative; top: <?php //if ($lowerleft == "yes") { echo "-"; } ?>66px;">
         <a href="pdf/Letter_of_Thanks_2009.pdf" style="text-decoration: none;"><strong>Letter of Thanks</strong> &nbsp; <img src="images/pdf.gif" alt="PDF" style="vertical-align: middle; padding-right: 12px;"></a>

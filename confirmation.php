@@ -10,7 +10,6 @@ $securimage = new Securimage();
 
 if ($securimage->check($_POST['captcha_code']) == true) {
   $SendTo = "ckbradz@yahoo.com";
-  //$SendTo = "m.lippert@remedicreative.com";
   $subject = "Entry form from vernonopen.com";
   $from = "From: " . $_POST['name'] . " <" . $_POST['email'] . ">\r\n";
 
@@ -99,6 +98,19 @@ if ($securimage->check($_POST['captcha_code']) == true) {
   $newrec = "INSERT INTO register (name,address,city,state,zip,phone,email,foursome,golf,hole,sponsor_name,reception,foursome_name1,foursome_name2,foursome_name3,foursome_name4,amount_enclosed,date) VALUES('$name','$address','$city','$state','$zip','$phone','$email','$foursome','$golf','$hole','$sponsor_name','$reception','$foursome_name1','$foursome_name2','$foursome_name3','$foursome_name4','$amount_enclosed','$rightnow')";
   mysql_query($newrec);
   mysql_close();
+
+  // Add email to MailChimp list
+  require_once('MailChimp.php');
+  $api = new \Drewm\MailChimp('b7f36c84095e3db2e8df3f515e736f68-us11');
+  $api->call('lists/subscribe', array(
+    'id'                => 'f432b4379d',
+    'email'             => array('email'=>$_POST['email']),
+    'merge_vars'        => array(),
+    'double_optin'      => false,
+    'update_existing'   => true,
+    'replace_interests' => false,
+    'send_welcome'      => false,
+  ));
 
   // Print results
   //echo "<pre>$SendTo\n$from$subject\n\n$message</pre>";
