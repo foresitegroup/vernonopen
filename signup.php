@@ -139,9 +139,9 @@ include("header.php");
     
     <strong>Send  Payment to:</strong><br>
     The Vernon Open<br>
-    c/o Centennial Bar & Grille<br>
-    10352 N. Port Washington Rd.<br>
-    Mequon, WI 53092
+    c/o Cathy Kleiman Des Rosier<br>
+    154 Minz Park Circle #4<br>
+    West Bend, WI 53095
     
     </div> <!-- END right column -->
 <?

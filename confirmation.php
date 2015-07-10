@@ -126,14 +126,13 @@ if ($securimage->check($_POST['captcha_code']) == true) {
         <br>
         <strong>Please send  Payment to:</strong><br>
         The Vernon Open<br>
-        c/o Centennial Bar & Grille<br>
-        10352 N. Port Washington Rd.<br>
-        Mequon, WI 53092<br>
+        c/o Cathy Kleiman Des Rosier<br>
+        154 Minz Park Circle #4<br>
+        West Bend, WI 53095<br>
         <br>
         <strong>All questions can be directed to:</strong><br>
         Cathy Kleiman<br>
-        Office: 262-241-1553<br>
-        Fax: 262-241-3224<br>
+        414-217-5699<br>
         E-mail: <a href=\"mailto:ck&#98;&#114;&#97;&#100;&#122;&#64;y&#97;&#104;o&#111;&#46;&#99;&#111;&#109;\">&#99;&#107;&#98;&#114;&#97;&#100;&#122;&#64;&#121;a&#104;&#111;&#111;&#46;c&#111;m</a>";
   
 } else {
