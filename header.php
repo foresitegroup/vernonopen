@@ -57,7 +57,8 @@
 
 <div id="headline">
   <a href="http://www.facebook.com/profile.php?id=100000120394056" id="facebook"><img src="images/facebook.jpg" alt="Facebook"></a>
-  <img src="images/headline.jpg" alt="Join us for the 13th Annual Vernon Open">
+  <!-- <img src="images/headline.jpg" alt="Join us for the 13th Annual Vernon Open"> -->
+  <h1>This year's event has been canceled.</h1>
 </div>
 
 <div id="transband"></div> <!-- Opaque gradient band -->
@@ -73,20 +74,20 @@
     <div id="left-col"> <!-- BEGIN left column -->
     
       <div id="left-col-upper"> <!-- BEGIN upper left column -->
-        <div id="left-col-upper-head">WHEN &amp; WHERE</div>
+        <!-- <div id="left-col-upper-head">WHEN &amp; WHERE</div>
         Saturday September 12th, 2015<br>
-        Fire Ridge Golf Course in Grafton, WI
+        Fire Ridge Golf Course in Grafton, WI -->
       </div> <!-- END upper left column -->
       
       <?php if ($lowerleft == "yes") { ?>
       <br>
       
-      <div id="left-col-lower-bg"></div> <!-- Semi-transparent background for lower left column in seperate DIV so text doesn't inherit opacity -->
+      <!-- <div id="left-col-lower-bg"></div> --> <!-- Semi-transparent background for lower left column in seperate DIV so text doesn't inherit opacity -->
       <div id="left-col-lower"> <!-- BEGIN lower left column -->
-        <ul>
+        <!-- <ul>
           <li><strong>1:00 PM</strong> Shotgun Start</li>
           <li><strong>6:00 PM</strong> Dinner, drinks, silent Auction and raffle at Flannery's Restaurant at Fire Ridge</li>
-        </ul>
+        </ul> -->
       </div> <!-- END lower left column -->
       
       <!-- Begin MailChimp Signup Form -->
