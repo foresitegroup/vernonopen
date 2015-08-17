@@ -3,8 +3,25 @@ $lowerleft = "yes";
 include("header.php");
 ?>
     <div id="right-col"> <!-- BEGIN right column -->
-      <strong>Save the Date</strong><br>
-      Save the date for the 13th Annual Vernon Open.  Saturday September 12th.  Same time same place!!  1pm Shotgun start at Fire Ridge Golf Club in Grafton.  All money raised is donated to Aurora St Lukes.  We look forward to another great year!! See you there!
+      <img src="images/lilkleiman.jpg" alt="" style="float: left; margin: 0 1em 1em 0;">
+      <strong>In loving memory of Lil Kleiman,</strong> please donate to the Vernon Open benefiting the Daniel Kleiman Fund at Aurora St. Luke's Medical Center in the fight against pancreatic cancer.<br>
+      <br>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0 auto; text-align: center;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="BJMJ6GLKV8LU8">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      <br>
+
+      You may also donate by sending a check to:<br>
+      The Vernon Open<br>
+      c/o Cathy Kleiman Des Rosier<br>
+      154 Minz Park Circle #4<br>
+      West Bend, WI 53095<br>
+
+      <!-- <strong>Save the Date</strong><br>
+      Save the date for the 13th Annual Vernon Open.  Saturday September 12th.  Same time same place!!  1pm Shotgun start at Fire Ridge Golf Club in Grafton.  All money raised is donated to Aurora St Lukes.  We look forward to another great year!! See you there! -->
 
       <!--
       VERNON OPEN 9 is just around the corner.  Mark your calendars for September 10, 2011.  We'll have a great time.  <a href="javascript:toggle('par1','par1link')" id="par1link">Read more...</a>
